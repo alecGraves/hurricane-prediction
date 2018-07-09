@@ -7,7 +7,6 @@ data alongside historical hurricane information (paths and airspeeds)
 to train an agent capable of predicting future location and
 max airspeed given the current data on a hurricane.
 
-
 ## Datasets:
 1. [NOAA 2-Minute Gridded Global Relief Data](https://www.ngdc.noaa.gov/mgg/global/etopo2.html)
 
@@ -27,3 +26,8 @@ matplotlib (2.0.2)
 ## Instructions:
 1. extract datasets.7z into the folder ./datasets
 2. run notebooks
+
+#### TODO
+- [ ] Incorporate satellite imagery to help learn climate data
+- [ ] Incorporate temperature data
+- [ ] actually build a model, ... yeah, ...
